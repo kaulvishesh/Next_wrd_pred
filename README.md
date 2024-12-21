@@ -3,7 +3,7 @@
 # Next Word Predictor
 
 ## Overview
-The **Next Word Predictor** is a machine learning project aimed at predicting the next word in a given text sequence. By training on a dataset of detailed narratives, it demonstrates how AI can analyze and generate coherent language patterns.
+This project evaluated the performance of several recurrent neural network (RNN) architectures for next-word prediction. Specifically, we compared standard RNNs, stacked RNNs, Long Short-Term Memory (LSTM) networks, stacked LSTMs, Gated Recurrent Units (GRUs), and stacked GRUs. These models were trained on a 500-line corpus of narrative text to assess their ability to capture sequential dependencies in language. Results indicated that performance in predicting the subsequent five words was limited across all architectures, particularly given the small training dataset. This comparison underscores the challenge of training complex sequence models with limited data and highlights the need for evaluation metrics that go beyond simple next-word accuracy, emphasizing the importance of semantic analysis and contextual understanding for a more comprehensive model assessment.
 
 ## Features
 - Processes text using TensorFlow and Keras for robust tokenization and modeling.
