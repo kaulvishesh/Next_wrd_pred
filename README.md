@@ -27,7 +27,7 @@ The dataset used is a custom collection of lore narratives, featuring descriptio
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/next-word-predictor.git
+   git clone https://github.com/kaulvishesh/next-word-predictor.git
 ## Results
 The model predicts the next word for any input text. For instance, feeding it part of a sentence from the lore dataset will generate the next logical word based on its training.
 
